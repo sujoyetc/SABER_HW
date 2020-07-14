@@ -1,0 +1,437 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Mar 30 19:13:53 2020
+# Process ID: 1156
+# Current directory: D:/SABER_FPGA/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5044 D:\SABER_FPGA\project_1\project_1.xpr
+# Log file: D:/SABER_FPGA/project_1/vivado.log
+# Journal file: D:/SABER_FPGA/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/SABER_FPGA/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/SABER_FPGA/project_1/project_1.sdk -hwspec D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+set_property target_simulator XSim [current_project]
+update_ip_catalog
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+source tb_compute_wrapper_new.tcl
+run 15us
+update_module_reference Top_ComputeCoreWrapper_0_0
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property -name {xsim.elaborate.rangecheck} -value {true} -objects [get_filesets sim_1]
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+source tb_compute_wrapper_new.tcl
+run 20us
+current_wave_config {tb_compute_wrapper_new_behav.wcfg}
+add_wave {{/tb_compute_wrapper_new/uut/CORE/SH/KECCAK/buffer_in/count_in_words}} 
+restart
+run 20us
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg}
+close_sim
+file copy -force D:/SABER_FPGA/project_1/project_1.runs/impl_1/Top_wrapper.sysdef D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_enc_commands2int [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+source tb_kem_enc_commands2int.tcl
+run 10us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_enc_new [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca.v
+update_compile_order -fileset sim_1
+open_bd_design {D:/SABER_FPGA/project_1/project_1.srcs/sources_1/bd/Top/Top.bd}
+report_ip_status -name ip_status 
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_dec_cca [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+source tb_kem_dec_cca.tcl
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/clk}} {{/tb_kem_dec_cca/uut/address_ext}} {{/tb_kem_dec_cca/uut/dina_ext}} {{/tb_kem_dec_cca/uut/wea_ext}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/BR/wea}} {{/tb_kem_dec_cca/uut/BR/addra}} {{/tb_kem_dec_cca/uut/BR/dina}} {{/tb_kem_dec_cca/uut/BR/addrb}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/BR/doutb}} 
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+set_property xsim.view {D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg} [get_filesets sim_1]
+restart
+run 10us
+run 30us
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 70us
+run 60us
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 60us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 30us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 30us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 30us
+run 20us
+run 40us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 60us
+run 20us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 90us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 100us
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_commands2int.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_dec_commands2int [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_commands2int.tcl
+file mkdir D:/SABER_FPGA/project_1/project_1.sdk
+file copy -force D:/SABER_FPGA/project_1/project_1.runs/impl_1/Top_wrapper.sysdef D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+
+launch_sdk -workspace D:/SABER_FPGA/project_1/project_1.sdk -hwspec D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+add_files -norecurse D:/SABER_FPGA/Verilog_src/Saber_blocks/verify.v
+update_compile_order -fileset sources_1
+update_module_reference Top_ComputeCoreWrapper_0_0
+report_ip_status -name ip_status 
+update_module_reference Top_ComputeCoreWrapper_0_0
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+export_ip_user_files -of_objects  [get_files D:/SABER_FPGA/Verilog_src/Saber_blocks/ins_ROM.v] -no_script -reset -force -quiet
+remove_files  D:/SABER_FPGA/Verilog_src/Saber_blocks/ins_ROM.v
+export_ip_user_files -of_objects  [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/new/fpga_adder.v] -no_script -reset -force -quiet
+remove_files  D:/SABER_FPGA/project_1/project_1.srcs/sources_1/new/fpga_adder.v
+update_module_reference Top_ComputeCoreWrapper_0_0
+report_ip_status -name ip_status 
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_commands2int.tcl
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_commands2int.tcl
+open_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_dec_cca [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_12
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 80us
+current_wave_config {tb_compute_wrapper_new_behav.wcfg}
+add_wave {{/tb_kem_dec_cca/uut/verify_true}} {{/tb_kem_dec_cca/uut/done_verify}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/VERIFY1/rd_address}} {{/tb_kem_dec_cca/uut/VERIFY1/din0}} {{/tb_kem_dec_cca/uut/VERIFY1/din1}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/VERIFY1/verify_true}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/VERIFY1/din0_en}} {{/tb_kem_dec_cca/uut/VERIFY1/din1_en}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/VERIFY1/state}} 
+current_wave_config {tb_compute_wrapper_new_behav.wcfg*}
+add_wave {{/tb_kem_dec_cca/uut/VERIFY1/acc}} {{/tb_kem_dec_cca/uut/VERIFY1/acc_en}} 
+restart
+run 110us
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 100us
+current_wave_config {tb_compute_wrapper_new_behav.wcfg}
+add_wave {{/tb_kem_dec_cca/uut/rd_base_sel_verify}} {{/tb_kem_dec_cca/uut/op2_sel}} 
+current_wave_config {tb_kem_dec_cca_behav.wcfg}
+add_wave {{/tb_kem_dec_cca/uut/rd_base_sel_verify}} {{/tb_kem_dec_cca/uut/op2_sel}} 
+restart
+run 80us
+run 15us
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 90us
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 90us
+add_files -norecurse D:/SABER_FPGA/Verilog_src/Saber_blocks/cmov.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_module_reference Top_ComputeCoreWrapper_0_0
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+current_sim simulation_15
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+current_wave_config {tb_kem_dec_cca_behav.wcfg}
+add_wave {{/tb_kem_dec_cca/uut/verify_true}} 
+run 100us
+save_wave_config {D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg}
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 95us
+close_sim
+update_module_reference Top_ComputeCoreWrapper_0_0
+report_ip_status -name ip_status 
+startgroup
+set_property -dict [list CONFIG.PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ {250}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+save_bd_design
+open_bd_design {D:/SABER_FPGA/project_1/project_1.srcs/sources_1/bd/Top/Top.bd}
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+report_ip_status -name ip_status 
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+file copy -force D:/SABER_FPGA/project_1/project_1.runs/impl_1/Top_wrapper.sysdef D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+
+launch_sdk -workspace D:/SABER_FPGA/project_1/project_1.sdk -hwspec D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+launch_sdk -workspace D:/SABER_FPGA/project_1/project_1.sdk -hwspec D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+launch_sdk -workspace D:/SABER_FPGA/project_1/project_1.sdk -hwspec D:/SABER_FPGA/project_1/project_1.sdk/Top_wrapper.hdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_dec_commands2int [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+current_sim simulation_15
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_commands2int.tcl
+update_compile_order -fileset sim_1
+run 4us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_kem_dec_cca [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+run 90us
+report_utilization -name utilization_1
+update_module_reference Top_ComputeCoreWrapper_0_0
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_kem_dec_cca.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_compute_wrapper_new [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_compute_wrapper_new.tcl
+current_wave_config {tb_kem_dec_cca_behav.wcfg}
+add_wave {{/tb_compute_wrapper_new/uut/cycle_count}} 
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/wea_ext}} 
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/done_all_computation}} 
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/done_ins_computation}} 
+restart
+run 90us
+restart
+run 90us
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/ISA_CTRL/rst}} 
+restart
+run 40us
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/ISA_CTRL/state}} 
+restart
+run 30us
+update_module_reference Top_ComputeCoreWrapper_0_0
+close_sim
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci]
+generate_target Simulation [get_files D:/SABER_FPGA/project_1/project_1.srcs/sources_1/ip/BRAM64_1024/BRAM64_1024.xci]
+launch_simulation
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg
+open_wave_config D:/SABER_FPGA/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg
+source tb_compute_wrapper_new.tcl
+current_wave_config {tb_kem_dec_cca_behav.wcfg}
+add_wave {{/tb_compute_wrapper_new/uut/ISA_CTRL/cycle_count}} 
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/dina_ext_high_word}} 
+current_wave_config {tb_kem_dec_cca_behav.wcfg*}
+add_wave {{/tb_compute_wrapper_new/uut/control_high_word}} 
+restart
+run 30us
+close_sim
+open_bd_design {D:/SABER_FPGA/project_1/project_1.srcs/sources_1/bd/Top/Top.bd}
+startgroup
+set_property -dict [list CONFIG.PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ {350}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+save_bd_design
+set_property strategy Flow_PerfOptimized_high [get_runs synth_1]
+set_property strategy Performance_Explore [get_runs impl_1]
+report_ip_status -name ip_status 
+reset_run synth_1
+reset_run Top_zynq_ultra_ps_e_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+reset_run Top_ComputeCoreWrapper_0_0_synth_1
+reset_run Top_auto_ds_0_synth_1
+current_sim simulation_24
+close_sim
+current_sim simulation_22
+close_sim
+close_sim

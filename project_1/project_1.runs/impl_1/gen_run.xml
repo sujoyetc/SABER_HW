@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xczu9eg-ffvb1156-2-e" LaunchTime="1593360687">
+  <File Type="ROUTE-PWR" Name="Top_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Top_wrapper.tcl"/>
+  <File Type="PWROPT-DCP" Name="Top_wrapper_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Top_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Top_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="Top_wrapper.drc"/>
+  <File Type="OPT-HWDEF" Name="Top_wrapper.hwdef"/>
+  <File Type="OPT-DCP" Name="Top_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Top_wrapper_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="Top_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Top_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Top_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Top_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Top_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Top_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Top_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Top_wrapper_physopt.dcp"/>
+  <File Type="BG-BIT" Name="Top_wrapper.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Top_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Top_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Top_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Top_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Top_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Top_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="Top_wrapper.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Top_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="Top_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Top_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="Top_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Top_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Top_wrapper.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="Top_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Top_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Top_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Top_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Top_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Top_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Top_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Top_wrapper.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Top_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Top_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="Top_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="Top_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Top_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="Top_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Top_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/INS_RAM/INS_RAM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/BRAM64_1024/BRAM64_1024.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/Add_Round.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/Add_m_pack.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/BS2POLp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/ComputeCore3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/ISA_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Keccak_Core/SHA_SHAKE_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/VectorMul.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/VectorMul_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/polmul_Andrea/buffer_muxer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/cmov.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/copy_words.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/polmul_Andrea/parallel_Mults.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/polmul_Andrea/pol_mul256_parallel_in.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/polmul_Andrea/poly_load_control_BRAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/polmul_Andrea/s_mul.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/timer_loop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/unpack.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/vector_sampler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/verify.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Keccak_Core/keccak_globals.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Keccak_Core/keccak.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Keccak_Core/keccak_buffer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Keccak_Core/keccak_round.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Keccak_Core/keccak_round_constants_gen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Verilog_src/Saber_blocks/ComputeCoreWrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Top/Top.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Top/hdl/Top_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Performance_Explore" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Top_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Top_ComputeCoreWrapper_0_0"/>
+</GenRun>

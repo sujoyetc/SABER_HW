@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_kem_dec_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="keccak_globals" />
+            <top_module name="tb_kem_dec" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="11978750000fs"></ZoomStartTime>
+      <ZoomEndTime time="12025750001fs"></ZoomEndTime>
+      <Cursor1Time time="12355000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="227"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="/tb_kem_dec/uut/BR/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider395">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/BR/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/BR/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/BR/dina" type="array">
+      <obj_property name="ElementShortName">dina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/BR/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/BR/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider401">
+      <obj_property name="label">OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_shake" type="logic">
+      <obj_property name="ElementShortName">done_shake</obj_property>
+      <obj_property name="ObjectShortName">done_shake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_vmul" type="logic">
+      <obj_property name="ElementShortName">done_vmul</obj_property>
+      <obj_property name="ObjectShortName">done_vmul</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_addround" type="logic">
+      <obj_property name="ElementShortName">done_addround</obj_property>
+      <obj_property name="ObjectShortName">done_addround</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_addpack" type="logic">
+      <obj_property name="ElementShortName">done_addpack</obj_property>
+      <obj_property name="ObjectShortName">done_addpack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_bs2polvecp" type="logic">
+      <obj_property name="ElementShortName">done_bs2polvecp</obj_property>
+      <obj_property name="ObjectShortName">done_bs2polvecp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_unpack" type="logic">
+      <obj_property name="ElementShortName">done_unpack</obj_property>
+      <obj_property name="ObjectShortName">done_unpack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_copy" type="logic">
+      <obj_property name="ElementShortName">done_copy</obj_property>
+      <obj_property name="ObjectShortName">done_copy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/done_sampler" type="logic">
+      <obj_property name="ElementShortName">done_sampler</obj_property>
+      <obj_property name="ObjectShortName">done_sampler</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/INS" type="array">
+      <obj_property name="ElementShortName">INS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">INS[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider483">
+      <obj_property name="label">PMUL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_mul_done" type="logic">
+      <obj_property name="ElementShortName">pol_mul_done</obj_property>
+      <obj_property name="ObjectShortName">pol_mul_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/acc" type="array">
+      <obj_property name="ElementShortName">acc[3327:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[3327:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/acc_clear" type="logic">
+      <obj_property name="ElementShortName">acc_clear</obj_property>
+      <obj_property name="ObjectShortName">acc_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/bram_address_relative" type="array">
+      <obj_property name="ElementShortName">bram_address_relative[6:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_address_relative[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in" type="array">
+      <obj_property name="ElementShortName">pol_64bit_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pol_64bit_in[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus774" type="vbus">
+      <obj_property name="label">part</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">[63]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">[56]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">[52]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus760" type="vbus">
+      <obj_property name="label">co3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">[48]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[47]" type="logic">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">[47]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[46]" type="logic">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">[46]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[45]" type="logic">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">[45]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[44]" type="logic">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">[44]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[43]" type="logic">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">[43]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[42]" type="logic">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">[42]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[41]" type="logic">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">[41]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[40]" type="logic">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">[40]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[39]" type="logic">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">[39]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus746" type="vbus">
+      <obj_property name="label">co2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus732" type="vbus">
+      <obj_property name="label">co1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus718" type="vbus">
+      <obj_property name="label">co0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_64bit_in[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/s_address" type="array">
+      <obj_property name="ElementShortName">s_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/s_vec_64" type="array">
+      <obj_property name="ElementShortName">s_vec_64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_vec_64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/acc_en" type="logic">
+      <obj_property name="ElementShortName">acc_en</obj_property>
+      <obj_property name="ObjectShortName">acc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/shift_secret" type="logic">
+      <obj_property name="ElementShortName">shift_secret</obj_property>
+      <obj_property name="ObjectShortName">shift_secret</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/secret" type="array">
+      <obj_property name="ElementShortName">secret[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">secret[1023:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider653">
+      <obj_property name="label">small_Mul0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/Ri" type="array">
+      <obj_property name="ElementShortName">Ri[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Ri[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/a" type="array">
+      <obj_property name="ElementShortName">a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">a[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/s" type="array">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/ax3" type="array">
+      <obj_property name="ElementShortName">ax3[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ax3[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/ax5" type="array">
+      <obj_property name="ElementShortName">ax5[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ax5[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/a_mul_s" type="array">
+      <obj_property name="ElementShortName">a_mul_s[12:0]</obj_property>
+      <obj_property name="ObjectShortName">a_mul_s[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PMULTs/sa0/result" type="array">
+      <obj_property name="ElementShortName">result[12:0]</obj_property>
+      <obj_property name="ObjectShortName">result[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/pol_load_coeff4x" type="logic">
+      <obj_property name="ElementShortName">pol_load_coeff4x</obj_property>
+      <obj_property name="ObjectShortName">pol_load_coeff4x</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider325">
+      <obj_property name="label">s_address_vs_pol_address</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/s_address" type="array">
+      <obj_property name="ElementShortName">s_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_address[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/s_load" type="logic">
+      <obj_property name="ElementShortName">s_load</obj_property>
+      <obj_property name="ObjectShortName">s_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/s_load_done" type="logic">
+      <obj_property name="ElementShortName">s_load_done</obj_property>
+      <obj_property name="ObjectShortName">s_load_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/poly_load" type="logic">
+      <obj_property name="ElementShortName">poly_load</obj_property>
+      <obj_property name="ObjectShortName">poly_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/PLC/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec/uut/VMUL0/PMUL0/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+</wave_config>

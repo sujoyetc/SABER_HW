@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_kem_dec_cca_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="keccak_globals" />
+            <top_module name="tb_kem_dec_cca" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3177933334fs"></ZoomStartTime>
+      <ZoomEndTime time="3271933335fs"></ZoomEndTime>
+      <Cursor1Time time="3925000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="151"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_kem_dec_cca/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/address_ext" type="array">
+      <obj_property name="ElementShortName">address_ext[9:0]</obj_property>
+      <obj_property name="ObjectShortName">address_ext[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/dina_ext" type="array">
+      <obj_property name="ElementShortName">dina_ext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/wea_ext" type="logic">
+      <obj_property name="ElementShortName">wea_ext</obj_property>
+      <obj_property name="ObjectShortName">wea_ext</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider205">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/BR/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/BR/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/BR/dina" type="array">
+      <obj_property name="ElementShortName">dina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/BR/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/BR/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/rd_address" type="array">
+      <obj_property name="ElementShortName">rd_address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_address[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/din0" type="array">
+      <obj_property name="ElementShortName">din0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/din1" type="array">
+      <obj_property name="ElementShortName">din1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/verify_true" type="logic">
+      <obj_property name="ElementShortName">verify_true</obj_property>
+      <obj_property name="ObjectShortName">verify_true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/din0_en" type="logic">
+      <obj_property name="ElementShortName">din0_en</obj_property>
+      <obj_property name="ObjectShortName">din0_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/din1_en" type="logic">
+      <obj_property name="ElementShortName">din1_en</obj_property>
+      <obj_property name="ObjectShortName">din1_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/acc" type="array">
+      <obj_property name="ElementShortName">acc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/VERIFY1/acc_en" type="logic">
+      <obj_property name="ElementShortName">acc_en</obj_property>
+      <obj_property name="ObjectShortName">acc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/rd_base_sel_verify" type="logic">
+      <obj_property name="ElementShortName">rd_base_sel_verify</obj_property>
+      <obj_property name="ObjectShortName">rd_base_sel_verify</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/op2_sel" type="logic">
+      <obj_property name="ElementShortName">op2_sel</obj_property>
+      <obj_property name="ObjectShortName">op2_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/verify_true" type="logic">
+      <obj_property name="ElementShortName">verify_true</obj_property>
+      <obj_property name="ObjectShortName">verify_true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/rst_timer" type="logic">
+      <obj_property name="ElementShortName">rst_timer</obj_property>
+      <obj_property name="ObjectShortName">rst_timer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/done_timer" type="logic">
+      <obj_property name="ElementShortName">done_timer</obj_property>
+      <obj_property name="ObjectShortName">done_timer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/timer_loop/counter" type="array">
+      <obj_property name="ElementShortName">counter[39:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[39:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/timer_loop/read_address" type="array">
+      <obj_property name="ElementShortName">read_address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_dec_cca/uut/timer_loop/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

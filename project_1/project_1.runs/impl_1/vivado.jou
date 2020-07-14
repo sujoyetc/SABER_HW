@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 28 17:50:16 2020
+# Process ID: 15048
+# Current directory: D:/SABER_FPGA_cleaned_for_Github/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log Top_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Top_wrapper.tcl -notrace
+# Log file: D:/SABER_FPGA_cleaned_for_Github/project_1/project_1.runs/impl_1/Top_wrapper.vdi
+# Journal file: D:/SABER_FPGA_cleaned_for_Github/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Top_wrapper.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Apr 15 13:12:40 2020
+# Process ID: 1304
+# Current directory: D:/SABER_FPGA/Verilog_src/Polynomial_multiplier_prime/polmul_prime/polmul_prime.runs/dsp_mul_synth_1
+# Command line: vivado.exe -log dsp_mul.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dsp_mul.tcl
+# Log file: D:/SABER_FPGA/Verilog_src/Polynomial_multiplier_prime/polmul_prime/polmul_prime.runs/dsp_mul_synth_1/dsp_mul.vds
+# Journal file: D:/SABER_FPGA/Verilog_src/Polynomial_multiplier_prime/polmul_prime/polmul_prime.runs/dsp_mul_synth_1\vivado.jou
+#-----------------------------------------------------------
+source dsp_mul.tcl -notrace

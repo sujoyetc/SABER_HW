@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_compute_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="keccak_globals" />
+            <top_module name="tb_compute_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1323733334fs"></ZoomStartTime>
+      <ZoomEndTime time="1342533335fs"></ZoomEndTime>
+      <Cursor1Time time="1365000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="156"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/tb_compute_wrapper/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/control_low_word" type="array">
+      <obj_property name="ElementShortName">control_low_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">control_low_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/control_high_word" type="array">
+      <obj_property name="ElementShortName">control_high_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">control_high_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/dina_ext_low_word" type="array">
+      <obj_property name="ElementShortName">dina_ext_low_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext_low_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/dina_ext_high_word" type="array">
+      <obj_property name="ElementShortName">dina_ext_high_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext_high_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/dout_ext_low_word" type="array">
+      <obj_property name="ElementShortName">dout_ext_low_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_ext_low_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/dout_ext_high_word" type="array">
+      <obj_property name="ElementShortName">dout_ext_high_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_ext_high_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/random_seed" type="array">
+      <obj_property name="ElementShortName">random_seed[3:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">random_seed[3:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/pk" type="array">
+      <obj_property name="ElementShortName">pk[123:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">pk[123:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/i" type="array">
+      <obj_property name="ElementShortName">i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">i[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/address_ext" type="array">
+      <obj_property name="ElementShortName">address_ext[9:0]</obj_property>
+      <obj_property name="ObjectShortName">address_ext[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/dina_ext" type="array">
+      <obj_property name="ElementShortName">dina_ext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/wea_ext" type="logic">
+      <obj_property name="ElementShortName">wea_ext</obj_property>
+      <obj_property name="ObjectShortName">wea_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/command_in" type="array">
+      <obj_property name="ElementShortName">command_in[34:0]</obj_property>
+      <obj_property name="ObjectShortName">command_in[34:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/command_we0" type="logic">
+      <obj_property name="ElementShortName">command_we0</obj_property>
+      <obj_property name="ObjectShortName">command_we0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/command_we1" type="logic">
+      <obj_property name="ElementShortName">command_we1</obj_property>
+      <obj_property name="ObjectShortName">command_we1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/command_in64" type="array">
+      <obj_property name="ElementShortName">command_in64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">command_in64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/op3" type="array">
+      <obj_property name="ElementShortName">op3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">op3[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/op2" type="array">
+      <obj_property name="ElementShortName">op2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/op1" type="array">
+      <obj_property name="ElementShortName">op1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/INS" type="array">
+      <obj_property name="ElementShortName">INS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">INS[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider79">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/BR/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/BR/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/BR/dina" type="array">
+      <obj_property name="ElementShortName">dina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/BR/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/BR/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider85">
+      <obj_property name="label">Core</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/INS" type="array">
+      <obj_property name="ElementShortName">INS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">INS[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/OP1" type="array">
+      <obj_property name="ElementShortName">OP1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">OP1[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/OP2" type="array">
+      <obj_property name="ElementShortName">OP2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">OP2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/OP3" type="array">
+      <obj_property name="ElementShortName">OP3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">OP3[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/mlen" type="array">
+      <obj_property name="ElementShortName">mlen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/olen" type="array">
+      <obj_property name="ElementShortName">olen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">olen[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/done_shake" type="logic">
+      <obj_property name="ElementShortName">done_shake</obj_property>
+      <obj_property name="ObjectShortName">done_shake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/clear_sha" type="logic">
+      <obj_property name="ElementShortName">clear_sha</obj_property>
+      <obj_property name="ObjectShortName">clear_sha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/enable_sha" type="logic">
+      <obj_property name="ElementShortName">enable_sha</obj_property>
+      <obj_property name="ObjectShortName">enable_sha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_addpack" type="logic">
+      <obj_property name="ElementShortName">rst_addpack</obj_property>
+      <obj_property name="ObjectShortName">rst_addpack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_addround" type="logic">
+      <obj_property name="ElementShortName">rst_addround</obj_property>
+      <obj_property name="ObjectShortName">rst_addround</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_bs2polvecp" type="logic">
+      <obj_property name="ElementShortName">rst_bs2polvecp</obj_property>
+      <obj_property name="ObjectShortName">rst_bs2polvecp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_copy" type="logic">
+      <obj_property name="ElementShortName">rst_copy</obj_property>
+      <obj_property name="ObjectShortName">rst_copy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_sampler" type="logic">
+      <obj_property name="ElementShortName">rst_sampler</obj_property>
+      <obj_property name="ObjectShortName">rst_sampler</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_unpack" type="logic">
+      <obj_property name="ElementShortName">rst_unpack</obj_property>
+      <obj_property name="ObjectShortName">rst_unpack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/uut/CORE/rst_vmul" type="logic">
+      <obj_property name="ElementShortName">rst_vmul</obj_property>
+      <obj_property name="ObjectShortName">rst_vmul</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper/dina_ext" type="array">
+      <obj_property name="ElementShortName">dina_ext[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext[63:0]</obj_property>
+   </wvobject>
+</wave_config>

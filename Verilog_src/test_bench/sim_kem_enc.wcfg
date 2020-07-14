@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_kem_enc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="keccak_globals" />
+            <top_module name="tb_kem_enc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6155378487fs"></ZoomEndTime>
+      <Cursor1Time time="53263019000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject type="divider" fp_name="divider25">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus267" type="vbus">
+      <obj_property name="label">coeff3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus250" type="vbus">
+      <obj_property name="label">coeff2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus233" type="vbus">
+      <obj_property name="label">coeff1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus216" type="vbus">
+      <obj_property name="label">coeff0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="vbus284" type="vbus">
+         <obj_property name="label">tt</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/rd_address" type="array">
+      <obj_property name="ElementShortName">rd_address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_address[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/sample_pack" type="array">
+      <obj_property name="ElementShortName">sample_pack[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_pack[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/wt_address" type="array">
+      <obj_property name="ElementShortName">wt_address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">wt_address[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/wen_sample_pack" type="array">
+      <obj_property name="ElementShortName">wen_sample_pack[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wen_sample_pack[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s0" type="array">
+      <obj_property name="ElementShortName">s0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s1" type="array">
+      <obj_property name="ElementShortName">s1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s2" type="array">
+      <obj_property name="ElementShortName">s2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s3" type="array">
+      <obj_property name="ElementShortName">s3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s4" type="array">
+      <obj_property name="ElementShortName">s4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s5" type="array">
+      <obj_property name="ElementShortName">s5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s6" type="array">
+      <obj_property name="ElementShortName">s6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/s7" type="array">
+      <obj_property name="ElementShortName">s7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc/uut/Sampler/temp_s0" type="array">
+      <obj_property name="ElementShortName">temp_s0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_s0[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider245">
+      <obj_property name="label">Encryption</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="dsp_mul_synth_1" LaunchPart="xczu9eg-ffvb1156-2-e" LaunchTime="1586952750">
+  <File Type="PA-TCL" Name="dsp_mul.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="dsp_mul_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="dsp_mul_reports.tcl"/>
+  <File Type="RDS-RDS" Name="dsp_mul.vds"/>
+  <File Type="RDS-UTIL" Name="dsp_mul_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="dsp_mul_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="dsp_mul.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="dsp_mul_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="dsp_mul_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dsp_mul">
+    <File Path="$PSRCDIR/sources_1/ip/dsp_mul/dsp_mul.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="dsp_mul"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dsp_mul">
+    <File Path="$PSRCDIR/sources_1/ip/dsp_mul/dsp_mul.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="dsp_mul"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

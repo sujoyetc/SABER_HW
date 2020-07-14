@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.Saber\:.bss=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.data=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.data1=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.fixup=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.rodata=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.rodata1=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.sbss=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.sbss2=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.sdata=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.sdata2=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:.text=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:heap=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:heap-size=10240000
+com.xilinx.sdk.linkgen.prefs.Saber\:stack=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.Saber\:stack-size=10240000
+eclipse.preferences.version=1

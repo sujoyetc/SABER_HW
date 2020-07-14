@@ -1,0 +1,1683 @@
+16:07:17 **** Build of project Saber_bsp ****
+make -k all 
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling avbuf"
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling AXI_Slave8Ports..."
+AXI_Slave8Ports_selftest.c: In function 'AXI_SLAVE8PORTS_Reg_SelfTest':
+AXI_Slave8Ports_selftest.c:38:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  baseaddr = (u32) baseaddr_p;
+             ^
+AXI_Slave8Ports_selftest.c:52:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+AXI_Slave8Ports_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling canps"
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling cpu_cortexa53"
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling dpdma"
+xdpdma.c: In function 'XDpDma_DisplayVideoFrameBuffer':
+xdpdma.c:759:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL2] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane2;
+     ~~~~~~                                                
+xdpdma.c:761:3: note: here
+   case XDPDMA_VIDEO_CHANNEL1:
+   ^~~~
+xdpdma.c:763:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL1] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane1;
+     ~~~~~~                                                
+xdpdma.c:765:3: note: here
+   case XDPDMA_VIDEO_CHANNEL0:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling qspipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling resetps"
+xresetps.c:72:1: warning: 'static' is not at beginning of declaration [-Wold-style-declaration]
+ const static XResetPs_Lookup ResetMap[] = {
+ ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sdps"
+xsdps.c: In function 'XSdPs_FrameCmd':
+xsdps.c:1272:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    RetVal |= RESP_R1 | (u32)XSDPS_DAT_PRESENT_SEL_MASK;
+xsdps.c:1273:3: note: here
+   case ACMD41:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling standalone A53"
+In file included from sleep.c:63:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:54:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:56:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling usbpsu"
+In file included from xusbpsu.h:85:0,
+                 from xusbpsu_hibernation.c:54:
+xusbpsu_hibernation.c: In function 'XUsbPsu_WakeupIntr':
+xusbpsu_hw.h:376:2: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  Xil_Out32((InstancePtr)->ConfigPtr->BaseAddress + (u32)(Offset), (u32)(Data))
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:659:3: note: in expansion of macro 'XUsbPsu_WriteReg'
+   XUsbPsu_WriteReg(InstancePtr, XUSBPSU_DCTL, RegVal);
+   ^~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:662:2: note: here
+  case XUSBPSU_LINK_STATE_U3:
+  ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling wdtps"
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+16:10:32 **** Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe:../src/lscript.ld:50: warning: memory region `psu_ddr_0_MEM_0' not declared
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Saber.elf] Error 1
+16:11:33 **** Auto Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:53:0:
+../../Saber_bsp/psu_cortexa53_0/include/xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1893:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1896:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1900:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:135:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1901:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:349:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1904:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:210:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1905:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:748:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1908:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:60:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1909:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:287:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1936:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:1951:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1952:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1873:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe:../src/lscript.ld:50: warning: memory region `psu_ddr_0_MEM_0' not declared
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Saber.elf] Error 1
+16:11:48 **** Clean-only build of configuration Debug for project Saber ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Saber.elf.size  Saber.elf
+' '
+16:11:50 **** Clean-only build of project Saber_bsp ****
+make -k clean 
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [clean] Error 1
+make: *** [psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src/make.clean] Error 2
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s clean 
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s clean 
+make: Target `clean' not remade because of errors.
+16:11:56 **** Build of project Saber_bsp ****
+make -k all 
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling avbuf"
+"Running Make libs in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling AXI_Slave8Ports..."
+AXI_Slave8Ports_selftest.c: In function 'AXI_SLAVE8PORTS_Reg_SelfTest':
+AXI_Slave8Ports_selftest.c:38:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  baseaddr = (u32) baseaddr_p;
+             ^
+AXI_Slave8Ports_selftest.c:52:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+AXI_Slave8Ports_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling canps"
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling cpu_cortexa53"
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling dpdma"
+xdpdma.c: In function 'XDpDma_DisplayVideoFrameBuffer':
+xdpdma.c:759:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL2] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane2;
+     ~~~~~~                                                
+xdpdma.c:761:3: note: here
+   case XDPDMA_VIDEO_CHANNEL1:
+   ^~~~
+xdpdma.c:763:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL1] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane1;
+     ~~~~~~                                                
+xdpdma.c:765:3: note: here
+   case XDPDMA_VIDEO_CHANNEL0:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling qspipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling resetps"
+xresetps.c:72:1: warning: 'static' is not at beginning of declaration [-Wold-style-declaration]
+ const static XResetPs_Lookup ResetMap[] = {
+ ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sdps"
+xsdps.c: In function 'XSdPs_FrameCmd':
+xsdps.c:1272:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    RetVal |= RESP_R1 | (u32)XSDPS_DAT_PRESENT_SEL_MASK;
+xsdps.c:1273:3: note: here
+   case ACMD41:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling standalone A53"
+In file included from sleep.c:63:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:54:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:56:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling usbpsu"
+In file included from xusbpsu.h:85:0,
+                 from xusbpsu_hibernation.c:54:
+xusbpsu_hibernation.c: In function 'XUsbPsu_WakeupIntr':
+xusbpsu_hw.h:376:2: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  Xil_Out32((InstancePtr)->ConfigPtr->BaseAddress + (u32)(Offset), (u32)(Data))
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:659:3: note: in expansion of macro 'XUsbPsu_WriteReg'
+   XUsbPsu_WriteReg(InstancePtr, XUSBPSU_DCTL, RegVal);
+   ^~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:662:2: note: here
+  case XUSBPSU_LINK_STATE_U3:
+  ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling wdtps"
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+16:14:48 **** Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:53:0:
+../../Saber_bsp/psu_cortexa53_0/include/xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1893:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1896:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1900:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:135:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1901:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:349:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1904:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:210:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1905:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:748:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1908:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:60:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1909:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:287:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1936:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:1951:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1952:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1873:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe:../src/lscript.ld:50: warning: memory region `psu_ddr_0_MEM_0' not declared
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Saber.elf] Error 1
+16:14:55 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe:../src/lscript.ld:50: warning: memory region `psu_ddr_0_MEM_0' not declared
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Saber.elf] Error 1
+16:17:00 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe:../src/lscript.ld:50: warning: memory region `psu_ddr_0_MEM_0' not declared
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Saber.elf] Error 1
+16:17:20 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe:../src/lscript.ld:50: warning: memory region `psu_ddr_0_MEM_0' not declared
+d:/vivado2018_installed/sdk/2018.1/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/7.2.1/../../../../aarch64-none-elf/bin/ld.exe: error: no memory region specified for loadable section `.note.gnu.build-id'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Saber.elf] Error 1
+16:17:47 **** Clean-only build of configuration Debug for project Saber ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Saber.elf.size  Saber.elf
+' '
+16:17:48 **** Auto Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:53:0:
+../../Saber_bsp/psu_cortexa53_0/include/xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1893:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1896:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1900:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:135:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1901:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:349:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1904:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:210:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1905:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:748:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1908:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:60:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1909:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:287:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1936:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:1951:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1952:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1873:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127852	   4616	20484376	20616844	13a968c	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+16:18:05 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:21:39 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:23:00 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:31:53 **** Auto Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:53:0:
+../../Saber_bsp/psu_cortexa53_0/include/xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'init_timer':
+../src/helloworld.c:63:21: warning: unused variable 'ins_group' [-Wunused-variable]
+  unsigned long long ins_group[70] =
+                     ^~~~~~~~~
+../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1902:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1905:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1909:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:144:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1910:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:358:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1913:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:219:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1914:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:757:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1917:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:69:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1918:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:296:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1945:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:1960:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1961:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1882:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127916	   4616	20484376	20616908	13a96cc	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+16:39:07 **** Auto Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:53:0:
+../../Saber_bsp/psu_cortexa53_0/include/xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/helloworld.c: In function 'init_timer':
+../src/helloworld.c:63:21: warning: unused variable 'ins_group' [-Wunused-variable]
+  unsigned long long ins_group[70] =
+                     ^~~~~~~~~
+../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1951:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1954:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1958:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:191:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1959:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:407:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1962:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:266:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1963:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:806:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1966:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:108:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1967:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:343:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1994:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:2009:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:2010:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1931:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127980	   4616	20484376	20616972	13a970c	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+16:39:41 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:41:37 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:45:18 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:46:59 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+16:55:27 **** Clean-only build of project Saber_bsp ****
+make -k clean 
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [clean] Error 1
+make: *** [psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src/make.clean] Error 2
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s clean 
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s clean 
+make: Target `clean' not remade because of errors.
+16:55:36 **** Clean-only build of configuration Debug for project Saber ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Saber.elf.size  Saber.elf
+' '
+16:55:37 **** Build of project Saber_bsp ****
+make -k all 
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling avbuf"
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling AXI_Slave8Ports..."
+AXI_Slave8Ports_selftest.c: In function 'AXI_SLAVE8PORTS_Reg_SelfTest':
+AXI_Slave8Ports_selftest.c:38:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  baseaddr = (u32) baseaddr_p;
+             ^
+AXI_Slave8Ports_selftest.c:52:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+AXI_Slave8Ports_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling canps"
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling cpu_cortexa53"
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling dpdma"
+xdpdma.c: In function 'XDpDma_DisplayVideoFrameBuffer':
+xdpdma.c:759:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL2] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane2;
+     ~~~~~~                                                
+xdpdma.c:761:3: note: here
+   case XDPDMA_VIDEO_CHANNEL1:
+   ^~~~
+xdpdma.c:763:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL1] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane1;
+     ~~~~~~                                                
+xdpdma.c:765:3: note: here
+   case XDPDMA_VIDEO_CHANNEL0:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling qspipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling resetps"
+xresetps.c:72:1: warning: 'static' is not at beginning of declaration [-Wold-style-declaration]
+ const static XResetPs_Lookup ResetMap[] = {
+ ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sdps"
+xsdps.c: In function 'XSdPs_FrameCmd':
+xsdps.c:1272:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    RetVal |= RESP_R1 | (u32)XSDPS_DAT_PRESENT_SEL_MASK;
+xsdps.c:1273:3: note: here
+   case ACMD41:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling standalone A53"
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling usbpsu"
+In file included from xusbpsu.h:85:0,
+                 from xusbpsu_hibernation.c:54:
+xusbpsu_hibernation.c: In function 'XUsbPsu_WakeupIntr':
+xusbpsu_hw.h:376:2: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  Xil_Out32((InstancePtr)->ConfigPtr->BaseAddress + (u32)(Offset), (u32)(Data))
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:659:3: note: in expansion of macro 'XUsbPsu_WriteReg'
+   XUsbPsu_WriteReg(InstancePtr, XUSBPSU_DCTL, RegVal);
+   ^~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:662:2: note: here
+  case XUSBPSU_LINK_STATE_U3:
+  ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling wdtps"
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+16:59:30 **** Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_timer':
+../src/helloworld.c:63:21: warning: unused variable 'ins_group' [-Wunused-variable]
+  unsigned long long ins_group[70] =
+                     ^~~~~~~~~
+../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1951:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1954:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1958:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:191:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1959:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:407:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1962:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:266:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1963:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:806:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1966:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:108:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1967:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:343:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1994:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:2009:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:2010:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1931:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127980	   4616	20484376	20616972	13a970c	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+17:00:34 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+18:46:48 **** Clean-only build of project Saber_bsp ****
+make -k clean 
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [clean] Error 1
+make: *** [psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src/make.clean] Error 2
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s clean 
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s clean 
+make: Target `clean' not remade because of errors.
+18:47:04 **** Clean-only build of configuration Debug for project Saber ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Saber.elf.size  Saber.elf
+' '
+18:47:05 **** Build of project Saber_bsp ****
+make -k all 
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s include  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_1/src"
+make -C psu_cortexa53_0/libsrc/avbuf_v2_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling avbuf"
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src"
+make -C psu_cortexa53_0/libsrc/AXI_Slave8Ports_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling AXI_Slave8Ports..."
+AXI_Slave8Ports_selftest.c: In function 'AXI_SLAVE8PORTS_Reg_SelfTest':
+AXI_Slave8Ports_selftest.c:38:13: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  baseaddr = (u32) baseaddr_p;
+             ^
+AXI_Slave8Ports_selftest.c:52:64: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                ^~
+AXI_Slave8Ports_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_6/src"
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling axipmon"
+"Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src"
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling canps"
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src"
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src"
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling cpu_cortexa53"
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_2/src"
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling csudma"
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src"
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ddrcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_0/src"
+make -C psu_cortexa53_0/libsrc/dpdma_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling dpdma"
+xdpdma.c: In function 'XDpDma_DisplayVideoFrameBuffer':
+xdpdma.c:759:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL2] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane2;
+     ~~~~~~                                                
+xdpdma.c:761:3: note: here
+   case XDPDMA_VIDEO_CHANNEL1:
+   ^~~~
+xdpdma.c:763:58: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    InstancePtr->Video.FrameBuffer[XDPDMA_VIDEO_CHANNEL1] =
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+     Plane1;
+     ~~~~~~                                                
+xdpdma.c:765:3: note: here
+   case XDPDMA_VIDEO_CHANNEL0:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_7/src"
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_3/src"
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/iicps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ipipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_7/src"
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling qspipsu"
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_0/src"
+make -C psu_cortexa53_0/libsrc/resetps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling resetps"
+xresetps.c:72:1: warning: 'static' is not at beginning of declaration [-Wold-style-declaration]
+ const static XResetPs_Lookup ResetMap[] = {
+ ^~~~~
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src"
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling rtcpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_9/src"
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_4/src"
+make -C psu_cortexa53_0/libsrc/sdps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sdps"
+xsdps.c: In function 'XSdPs_FrameCmd':
+xsdps.c:1272:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    RetVal |= RESP_R1 | (u32)XSDPS_DAT_PRESENT_SEL_MASK;
+xsdps.c:1273:3: note: here
+   case ACMD41:
+   ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_6/src"
+make -C psu_cortexa53_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling standalone A53"
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src"
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling sysmonpsu"
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_5/src"
+make -C psu_cortexa53_0/libsrc/ttcps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_6/src"
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src"
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling usbpsu"
+In file included from xusbpsu.h:85:0,
+                 from xusbpsu_hibernation.c:54:
+xusbpsu_hibernation.c: In function 'XUsbPsu_WakeupIntr':
+xusbpsu_hw.h:376:2: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  Xil_Out32((InstancePtr)->ConfigPtr->BaseAddress + (u32)(Offset), (u32)(Data))
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:659:3: note: in expansion of macro 'XUsbPsu_WriteReg'
+   XUsbPsu_WriteReg(InstancePtr, XUSBPSU_DCTL, RegVal);
+   ^~~~~~~~~~~~~~~~
+xusbpsu_hibernation.c:662:2: note: here
+  case XUSBPSU_LINK_STATE_U3:
+  ^~~~
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_3/src"
+make -C psu_cortexa53_0/libsrc/video_common_v4_3/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling video_common"
+"Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_0/src"
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling wdtps"
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_5/src"
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s libs  "SHELL=CMD" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+"Compiling zdma"
+'Finished building libraries'
+18:49:46 **** Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_timer':
+../src/helloworld.c:63:21: warning: unused variable 'ins_group' [-Wunused-variable]
+  unsigned long long ins_group[70] =
+                     ^~~~~~~~~
+../src/helloworld.c:62:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1951:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1954:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1958:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:191:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1959:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:407:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1962:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:266:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1963:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:806:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1966:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:108:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1967:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:343:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1994:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:2009:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:2010:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1931:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127980	   4616	20484376	20616972	13a970c	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+18:52:14 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.
+19:02:47 **** Auto Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1905:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1908:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1912:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:145:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1913:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:361:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1916:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:220:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1917:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:760:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1920:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:61:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1921:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:297:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1948:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:1963:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1964:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1885:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127852	   4616	20484376	20616844	13a968c	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+19:07:20 **** Auto Build of configuration Debug for project Saber ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Saber_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:1910:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(i=0; i<500; i++)
+   ^~~
+../src/helloworld.c:1913:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+    printf("Encapsulation/Decapsulation/Keygen [0/1/2]: ");
+    ^~~~~~
+../src/helloworld.c:1917:18: warning: passing argument 1 of 'init_INS_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_enc(INS);
+                  ^~~
+../src/helloworld.c:145:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_enc(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1918:17: warning: passing argument 1 of 'init_tv_enc' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_enc(tv);
+                 ^~
+../src/helloworld.c:361:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_enc(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1921:18: warning: passing argument 1 of 'init_INS_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_dec(INS);
+                  ^~~
+../src/helloworld.c:220:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_dec(unsigned long long *INS)
+      ^~~~~~~~~~~~
+../src/helloworld.c:1922:17: warning: passing argument 1 of 'init_tv_dec' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_dec(tv);
+                 ^~
+../src/helloworld.c:763:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_dec(unsigned long long *tv)
+      ^~~~~~~~~~~
+../src/helloworld.c:1925:21: warning: passing argument 1 of 'init_INS_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_INS_keygen(INS);
+                     ^~~
+../src/helloworld.c:61:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_INS_keygen(unsigned long long *INS)
+      ^~~~~~~~~~~~~~~
+../src/helloworld.c:1926:20: warning: passing argument 1 of 'init_tv_keygen' from incompatible pointer type [-Wincompatible-pointer-types]
+     init_tv_keygen(tv);
+                    ^~
+../src/helloworld.c:297:6: note: expected 'long long unsigned int *' but argument is of type 'uint64_t * {aka long unsigned int *}'
+ void init_tv_keygen(unsigned long long *tv)
+      ^~~~~~~~~~~~~~
+../src/helloworld.c:1953:24: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 3 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+     printf("b[%d] = %llx\n", i, b[i]);
+                     ~~~^        ~~~~
+                     %lx
+../src/helloworld.c:1968:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(a) = %llx\n", tiny_hash(a, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1969:29: warning: format '%llx' expects argument of type 'long long unsigned int', but argument 2 has type 'uint64_t {aka long unsigned int}' [-Wformat=]
+    printf("Tinyhash(b) = %llx\n", tiny_hash(b, 1024));
+                          ~~~^     ~~~~~~~~~~~~~~~~~~
+                          %lx
+../src/helloworld.c:1890:11: warning: unused variable 'NUMWORDS' [-Wunused-variable]
+  uint32_t NUMWORDS;
+           ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Saber.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Saber_bsp/psu_cortexa53_0/lib -o "Saber.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Saber.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Saber.elf  |tee "Saber.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 127852	   4616	20484376	20616844	13a968c	Saber.elf
+'Finished building: Saber.elf.size'
+' '
+19:08:07 **** Incremental Build of configuration Debug for project Saber ****
+make all 
+make: Nothing to be done for `all'.

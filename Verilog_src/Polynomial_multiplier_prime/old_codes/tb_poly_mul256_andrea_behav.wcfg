@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_poly_mul256_andrea_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_poly_mul256_andrea" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3637080868fs"></ZoomEndTime>
+      <Cursor1Time time="3485000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="172"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/tb_poly_mul256_andrea/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/secret" type="array">
+      <obj_property name="ElementShortName">secret[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">secret[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/pol_mul_done" type="logic">
+      <obj_property name="ElementShortName">pol_mul_done</obj_property>
+      <obj_property name="ObjectShortName">pol_mul_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/s_address" type="array">
+      <obj_property name="ElementShortName">s_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_address[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/s_vec_64" type="array">
+      <obj_property name="ElementShortName">s_vec_64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_vec_64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/s_load" type="logic">
+      <obj_property name="ElementShortName">s_load</obj_property>
+      <obj_property name="ObjectShortName">s_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/rst_s_load" type="logic">
+      <obj_property name="ElementShortName">rst_s_load</obj_property>
+      <obj_property name="ObjectShortName">rst_s_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/s_load_done" type="logic">
+      <obj_property name="ElementShortName">s_load_done</obj_property>
+      <obj_property name="ObjectShortName">s_load_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/acc" type="array">
+      <obj_property name="ElementShortName">acc[3327:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[3327:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider79">
+      <obj_property name="label">smul</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/Ri" type="array">
+      <obj_property name="ElementShortName">Ri[12:0]</obj_property>
+      <obj_property name="ObjectShortName">Ri[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/a" type="array">
+      <obj_property name="ElementShortName">a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">a[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/s" type="array">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/ax3" type="array">
+      <obj_property name="ElementShortName">ax3[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ax3[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/ax5" type="array">
+      <obj_property name="ElementShortName">ax5[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ax5[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/a_mul_s" type="array">
+      <obj_property name="ElementShortName">a_mul_s[12:0]</obj_property>
+      <obj_property name="ObjectShortName">a_mul_s[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/PMULTs/sa1/result" type="array">
+      <obj_property name="ElementShortName">result[12:0]</obj_property>
+      <obj_property name="ObjectShortName">result[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider134">
+      <obj_property name="label">IO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/pol_load_coeff4x" type="logic">
+      <obj_property name="ElementShortName">pol_load_coeff4x</obj_property>
+      <obj_property name="ObjectShortName">pol_load_coeff4x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/acc_clear" type="logic">
+      <obj_property name="ElementShortName">acc_clear</obj_property>
+      <obj_property name="ObjectShortName">acc_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/pol_64bit_in" type="array">
+      <obj_property name="ElementShortName">pol_64bit_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pol_64bit_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/s_vec_64" type="array">
+      <obj_property name="ElementShortName">s_vec_64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_vec_64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/bram_address_relative" type="array">
+      <obj_property name="ElementShortName">bram_address_relative[6:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_address_relative[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/s_address" type="array">
+      <obj_property name="ElementShortName">s_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/coeff4x_out" type="array">
+      <obj_property name="ElementShortName">coeff4x_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">coeff4x_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_poly_mul256_andrea/uut/pol_mul_done" type="logic">
+      <obj_property name="ElementShortName">pol_mul_done</obj_property>
+      <obj_property name="ObjectShortName">pol_mul_done</obj_property>
+   </wvobject>
+</wave_config>

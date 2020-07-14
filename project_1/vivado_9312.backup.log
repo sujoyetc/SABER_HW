@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Mar 15 18:49:29 2020
+# Process ID: 9312
+# Current directory: D:/sample_vivado_project/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12612 D:\sample_vivado_project\project_1\project_1.xpr
+# Log file: D:/sample_vivado_project/project_1/vivado.log
+# Journal file: D:/sample_vivado_project/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/sample_vivado_project/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from '/volume1/scratch/ssinharo/sample_vivado_project/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/sample_vivado_project/ip_repo/AXIslave_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado2018_installed/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:02:23 ; elapsed = 00:02:31 . Memory (MB): peak = 1101.465 ; gain = 431.555
+update_compile_order -fileset sources_1
+open_bd_design {D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd}
+Adding cell -- xilinx.com:ip:zynq_ultra_ps_e:3.2 - zynq_ultra_ps_e_0
+Adding cell -- xilinx.com:module_ref:fpga_adder:1.0 - fpga_adder_0
+Adding cell -- user.org:user:AXIslave:1.0 - AXIslave_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_99M
+Successfully read diagram <top> from BD file <D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd>
+open_bd_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 1101.465 ; gain = 0.000
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd}
+generate_target all [get_files  D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd]
+xit::source_ipfile: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1101.465 ; gain = 0.000
+xit::source_ipfile: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1101.465 ; gain = 0.000
+WARNING: [BD 41-927] Following properties on pin /fpga_adder_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=top_zynq_ultra_ps_e_0_0_pl_clk0 
+Wrote  : <D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd> 
+Wrote  : <D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ui/bd_2ae56375.ui> 
+VHDL Output written to : D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/synth/top.v
+VHDL Output written to : D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/sim/top.v
+VHDL Output written to : D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/hdl/top_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block fpga_adder_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXIslave_0 .
+Exporting to file d:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ip/top_smartconnect_0_0/bd_0/hw_handoff/top_smartconnect_0_0.hwh
+Generated Block Design Tcl file d:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ip/top_smartconnect_0_0/bd_0/hw_handoff/top_smartconnect_0_0_bd.tcl
+Generated Hardware Definition File d:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ip/top_smartconnect_0_0/bd_0/synth/top_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_99M .
+Exporting to file D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/hw_handoff/top.hwh
+Generated Block Design Tcl file D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/hw_handoff/top_bd.tcl
+Generated Hardware Definition File D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/synth/top.hwdef
+generate_target: Time (s): cpu = 00:01:58 ; elapsed = 00:01:51 . Memory (MB): peak = 1233.504 ; gain = 132.039
+export_ip_user_files -of_objects [get_files D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd]
+export_simulation -of_objects [get_files D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd] -directory D:/sample_vivado_project/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir D:/sample_vivado_project/project_1/project_1.ip_user_files -ipstatic_source_dir D:/sample_vivado_project/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/modelsim} {questa=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/questa} {riviera=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/riviera} {activehdl=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ipx::edit_ip_in_project -upgrade true -name AXIslave_v1_0_project -directory D:/sample_vivado_project/project_1/project_1.tmp/AXIslave_v1_0_project d:/sample_vivado_project/ip_repo/AXIslave_1.0/component.xml
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/sample_vivado_project/ip_repo/AXIslave_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado2018_installed/Vivado/2018.1/data/ip'.
+create_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1250.371 ; gain = 2.633
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/sample_vivado_project/ip_repo/AXIslave_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:25 . Memory (MB): peak = 1253.719 ; gain = 5.980
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_cells' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_cells' failed due to earlier errors.
+    ::xilinx.com_bd_rule_zynq_ultra_ps_e::can_apply_rule Line 14
+update_compile_order -fileset sources_1
+set_property core_revision 4 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/sample_vivado_project/ip_repo/AXIslave_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/sample_vivado_project/ip_repo/AXIslave_1.0'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv user.org:user:AXIslave:1.0 [get_ips  top_AXIslave_0_0] -log ip_upgrade.log
+Upgrading 'D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd'
+INFO: [IP_Flow 19-3422] Upgraded top_AXIslave_0_0 (AXIslave_v1.0 1.0) from revision 3 to revision 4
+Wrote  : <D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/sample_vivado_project/project_1/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips top_AXIslave_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd]
+xit::source_ipfile: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1282.133 ; gain = 0.000
+xit::source_ipfile: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1282.133 ; gain = 0.000
+WARNING: [BD 41-927] Following properties on pin /fpga_adder_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=top_zynq_ultra_ps_e_0_0_pl_clk0 
+Wrote  : <D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd> 
+VHDL Output written to : D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/synth/top.v
+VHDL Output written to : D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/sim/top.v
+VHDL Output written to : D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/hdl/top_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block fpga_adder_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXIslave_0 .
+Exporting to file d:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ip/top_smartconnect_0_0/bd_0/hw_handoff/top_smartconnect_0_0.hwh
+Generated Block Design Tcl file d:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ip/top_smartconnect_0_0/bd_0/hw_handoff/top_smartconnect_0_0_bd.tcl
+Generated Hardware Definition File d:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/ip/top_smartconnect_0_0/bd_0/synth/top_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_99M .
+Exporting to file D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/hw_handoff/top.hwh
+Generated Block Design Tcl file D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/hw_handoff/top_bd.tcl
+Generated Hardware Definition File D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/synth/top.hwdef
+generate_target: Time (s): cpu = 00:01:53 ; elapsed = 00:01:56 . Memory (MB): peak = 1409.941 ; gain = 149.504
+catch { config_ip_cache -export [get_ips -all top_AXIslave_0_0] }
+export_ip_user_files -of_objects [get_files D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd]
+launch_runs -jobs 4 top_AXIslave_0_0_synth_1
+[Sun Mar 15 19:46:03 2020] Launched top_AXIslave_0_0_synth_1...
+Run output will be captured here: D:/sample_vivado_project/project_1/project_1.runs/top_AXIslave_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/sample_vivado_project/project_1/project_1.srcs/sources_1/bd/top/top.bd] -directory D:/sample_vivado_project/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir D:/sample_vivado_project/project_1/project_1.ip_user_files -ipstatic_source_dir D:/sample_vivado_project/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/modelsim} {questa=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/questa} {riviera=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/riviera} {activehdl=D:/sample_vivado_project/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Mar 15 19:48:17 2020] Launched top_AXIslave_0_0_synth_1, synth_1...
+Run output will be captured here:
+top_AXIslave_0_0_synth_1: D:/sample_vivado_project/project_1/project_1.runs/top_AXIslave_0_0_synth_1/runme.log
+synth_1: D:/sample_vivado_project/project_1/project_1.runs/synth_1/runme.log
+[Sun Mar 15 19:48:17 2020] Launched impl_1...
+Run output will be captured here: D:/sample_vivado_project/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1421.258 ; gain = 0.000
+file copy -force D:/sample_vivado_project/project_1/project_1.runs/impl_1/top_wrapper.sysdef D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+
+launch_sdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/sample_vivado_project/project_1/project_1.sdk -hwspec D:/sample_vivado_project/project_1/project_1.sdk/top_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

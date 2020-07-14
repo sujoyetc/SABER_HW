@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_kem_enc_new_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="keccak_globals" />
+            <top_module name="tb_kem_enc_new" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="38184200000fs"></ZoomStartTime>
+      <ZoomEndTime time="38203000001fs"></ZoomEndTime>
+      <Cursor1Time time="38295000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="164"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_kem_enc_new/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_shake" type="logic">
+      <obj_property name="ElementShortName">done_shake</obj_property>
+      <obj_property name="ObjectShortName">done_shake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_vmul" type="logic">
+      <obj_property name="ElementShortName">done_vmul</obj_property>
+      <obj_property name="ObjectShortName">done_vmul</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_addround" type="logic">
+      <obj_property name="ElementShortName">done_addround</obj_property>
+      <obj_property name="ObjectShortName">done_addround</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_addpack" type="logic">
+      <obj_property name="ElementShortName">done_addpack</obj_property>
+      <obj_property name="ObjectShortName">done_addpack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_bs2polvecp" type="logic">
+      <obj_property name="ElementShortName">done_bs2polvecp</obj_property>
+      <obj_property name="ObjectShortName">done_bs2polvecp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_unpack" type="logic">
+      <obj_property name="ElementShortName">done_unpack</obj_property>
+      <obj_property name="ObjectShortName">done_unpack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_copy" type="logic">
+      <obj_property name="ElementShortName">done_copy</obj_property>
+      <obj_property name="ObjectShortName">done_copy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/done_sampler" type="logic">
+      <obj_property name="ElementShortName">done_sampler</obj_property>
+      <obj_property name="ObjectShortName">done_sampler</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider397">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/BR/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/BR/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/BR/dina" type="array">
+      <obj_property name="ElementShortName">dina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/BR/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/BR/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider631">
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/VMUL0/s_load_happens_now" type="logic">
+      <obj_property name="ElementShortName">s_load_happens_now</obj_property>
+      <obj_property name="ObjectShortName">s_load_happens_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_kem_enc_new/uut/VMUL0/read_address" type="array">
+      <obj_property name="ElementShortName">read_address[8:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

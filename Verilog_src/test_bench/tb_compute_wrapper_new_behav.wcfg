@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_compute_wrapper_new_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="keccak_globals" />
+            <top_module name="tb_compute_wrapper_new" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6748500000fs"></ZoomStartTime>
+      <ZoomEndTime time="7206000001fs"></ZoomEndTime>
+      <Cursor1Time time="6930000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="179"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/tb_compute_wrapper_new/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/control_low_word" type="array">
+      <obj_property name="ElementShortName">control_low_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">control_low_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/control_high_word" type="array">
+      <obj_property name="ElementShortName">control_high_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">control_high_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/dina_ext_low_word" type="array">
+      <obj_property name="ElementShortName">dina_ext_low_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext_low_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/dina_ext_high_word" type="array">
+      <obj_property name="ElementShortName">dina_ext_high_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext_high_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus74" type="vbus">
+      <obj_property name="label">dout_ext</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_compute_wrapper_new/dout_ext_high_word" type="array">
+         <obj_property name="ElementShortName">dout_ext_high_word[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_ext_high_word[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_compute_wrapper_new/dout_ext_low_word" type="array">
+         <obj_property name="ElementShortName">dout_ext_low_word[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_ext_low_word[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/pk" type="array">
+      <obj_property name="ElementShortName">pk[127:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">pk[127:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/i" type="array">
+      <obj_property name="ElementShortName">i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">i[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/address_ext" type="array">
+      <obj_property name="ElementShortName">address_ext[9:0]</obj_property>
+      <obj_property name="ObjectShortName">address_ext[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/wea_ext" type="logic">
+      <obj_property name="ElementShortName">wea_ext</obj_property>
+      <obj_property name="ObjectShortName">wea_ext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/command_we0" type="logic">
+      <obj_property name="ElementShortName">command_we0</obj_property>
+      <obj_property name="ObjectShortName">command_we0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/command_we1" type="logic">
+      <obj_property name="ElementShortName">command_we1</obj_property>
+      <obj_property name="ObjectShortName">command_we1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider581">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/BR/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/BR/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/BR/dina" type="array">
+      <obj_property name="ElementShortName">dina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/BR/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/BR/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider114">
+      <obj_property name="label">TT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/dina_ext" type="array">
+      <obj_property name="ElementShortName">dina_ext[36:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_ext[36:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider46">
+      <obj_property name="label">SHA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/inc_rate" type="logic">
+      <obj_property name="ElementShortName">inc_rate</obj_property>
+      <obj_property name="ObjectShortName">inc_rate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/inc_rd_address" type="logic">
+      <obj_property name="ElementShortName">inc_rd_address</obj_property>
+      <obj_property name="ObjectShortName">inc_rd_address</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/mlen_reg" type="array">
+      <obj_property name="ElementShortName">mlen_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mlen_reg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider95">
+      <obj_property name="label">SHA_ports</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/shake_intermediate_rst" type="logic">
+      <obj_property name="ElementShortName">shake_intermediate_rst</obj_property>
+      <obj_property name="ObjectShortName">shake_intermediate_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/shake_next_extract" type="logic">
+      <obj_property name="ElementShortName">shake_next_extract</obj_property>
+      <obj_property name="ObjectShortName">shake_next_extract</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/sample_dout" type="logic">
+      <obj_property name="ElementShortName">sample_dout</obj_property>
+      <obj_property name="ObjectShortName">sample_dout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/KECCAK/buffer_in/buffer_full" type="logic">
+      <obj_property name="ElementShortName">buffer_full</obj_property>
+      <obj_property name="ObjectShortName">buffer_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/KECCAK/buffer_in/count_in_words" type="array">
+      <obj_property name="ElementShortName">count_in_words[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count_in_words[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/KECCAK/buffer_in/buffer_data" type="array">
+      <obj_property name="ElementShortName">buffer_data[1343:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_data[1343:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/dpra" type="array">
+      <obj_property name="ElementShortName">dpra[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dpra[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/qdpo" type="array">
+      <obj_property name="ElementShortName">qdpo[36:0]</obj_property>
+      <obj_property name="ObjectShortName">qdpo[36:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider696">
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/a" type="array">
+      <obj_property name="ElementShortName">a[5:0]</obj_property>
+      <obj_property name="ObjectShortName">a[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/d" type="array">
+      <obj_property name="ElementShortName">d[36:0]</obj_property>
+      <obj_property name="ObjectShortName">d[36:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/dpra" type="array">
+      <obj_property name="ElementShortName">dpra[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dpra[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/qdpo" type="array">
+      <obj_property name="ElementShortName">qdpo[36:0]</obj_property>
+      <obj_property name="ObjectShortName">qdpo[36:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/qdpo_clk" type="logic">
+      <obj_property name="ElementShortName">qdpo_clk</obj_property>
+      <obj_property name="ObjectShortName">qdpo_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/IR/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/ISA_CTRL/nextstate" type="array">
+      <obj_property name="ElementShortName">nextstate[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nextstate[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/control_high_word" type="array">
+      <obj_property name="ElementShortName">control_high_word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">control_high_word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_compute_wrapper_new/uut/CORE/SH/KECCAK/buffer_in/count_in_words" type="array">
+      <obj_property name="ElementShortName">count_in_words[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count_in_words[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

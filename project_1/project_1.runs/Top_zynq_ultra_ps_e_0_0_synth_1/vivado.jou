@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 14 23:35:37 2020
+# Process ID: 2968
+# Current directory: D:/SABER_FPGA/project_1/project_1.runs/Top_zynq_ultra_ps_e_0_0_synth_1
+# Command line: vivado.exe -log Top_zynq_ultra_ps_e_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_zynq_ultra_ps_e_0_0.tcl
+# Log file: D:/SABER_FPGA/project_1/project_1.runs/Top_zynq_ultra_ps_e_0_0_synth_1/Top_zynq_ultra_ps_e_0_0.vds
+# Journal file: D:/SABER_FPGA/project_1/project_1.runs/Top_zynq_ultra_ps_e_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_zynq_ultra_ps_e_0_0.tcl -notrace
